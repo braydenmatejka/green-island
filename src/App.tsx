@@ -36,22 +36,6 @@ const colors: Record<TileType, string> = {
   city: "#7e62ad",
 };
 
-const labels: Record<TileType, string> = {
-  ocean: "Ocean",
-  grass: "Grassland",
-  forest: "Forest",
-  "forest-cut": "Cut Forest",
-  "forest-protected": "Protected Forest",
-  oil: "Oil Field",
-  "oil-drilled": "Drilled Oil Field",
-  "ocean-overfished": "Overfished Ocean",
-  ice: "Polar Ice Caps",
-  river: "River",
-  "river-canals": "Canal System",
-  "river-hydro": "Hydroelectric River",
-  city: "City",
-};
-
 function clamp(value: number, min = 0, max = 100) {
   return Math.min(max, Math.max(min, value));
 }
